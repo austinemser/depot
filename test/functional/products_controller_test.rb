@@ -52,7 +52,4 @@ class ProductsControllerTest < ActionController::TestCase
 
     assert_redirected_to products_path
   end
-  test "should be 3 products" do
-    assert_select '.list_action a', 3
-  end
 end
